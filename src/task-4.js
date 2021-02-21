@@ -63,3 +63,9 @@ function onOrderError(error) {
 // Вызов pizzaPalace.order('Биг майк', makePizza, onOrderError) возвращает 'Ошибка! В ассортименте нет пиццы с названием Биг майк.'.
 // Вызов pizzaPalace.order('Венская', makePizza, onOrderError) возвращает 'Ошибка! В ассортименте нет пиццы с названием Венская.'.
 
+// Результаты
+// Метод `order` объявляет три параметра
+// Вызов `pizzaPalace.order('Аль Копчино', makePizza, onOrderError)` возвращает `Ваш заказ принят. Готовим пиццу Аль Копчино.'
+// Вызов `pizzaPalace.order('Четыре нарезона', makePizza, onOrderError)` возвращает 'Ваш заказ принят. Готовим пиццу Четыре нарезона.'
+// Вызов `pizzaPalace.order('Биг майк', makePizza, onOrderError)` возвращает 'Ошибка! В ассортименте нет пиццы с названием Биг майк.'
+// Вызов `pizzaPalace.order('Венская', makePizza, onOrderError)` возвращает 'Ошибка! В ассортименте нет пиццы с названием Венская.'
